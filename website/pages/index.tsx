@@ -30,7 +30,7 @@ const Home: React.FC<HomeProps> = ({ latestRelease }) => {
           <div className={styles.circle}>
             <Image
               className={styles.logo}
-              src="/loader_logo.png"
+              src="/images/loader_logo.png"
               alt="LiSA Logo"
               width={200}
               height={200}
