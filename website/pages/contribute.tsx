@@ -28,7 +28,7 @@ const Contributing: React.FC = () => {
           <section id="contributing">
             <h2>🤝 Contributing</h2>
             <p>Thank you for contributing to LiSA! We appreciate your contributions, whether they are bug reports, feature suggestions, or code improvements.</p>
-            <p>Feel free to submit an <a href="https://github.com/Cosmicoppai/LiSA/issues/new">issue</a> or, even better a pull request, and we'll review :)</p>
+            <p>Feel free to submit an <a href="https://github.com/Cosmicoppai/LiSA/issues/new">issue</a> or, even better a pull request, and we&apos;ll review :)</p>
           </section>
 
           <section id="development-setup">
