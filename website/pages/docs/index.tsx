@@ -32,7 +32,7 @@ const ApiDocs: React.FC = () => {
           <p><strong>Description:</strong> Searches for anime or manga.</p>
           <p><strong>Query Parameters:</strong></p>
           <ul>
-            <li><code>type</code> (optional): Type of search. Default is "anime". Can be "anime" or "manga".</li>
+            <li><code>type</code> (optional): Type of search. Default is &quot;anime&quot;. Can be &quot;anime&quot; or &quot;manga&quot;.</li>
             <li><code>query</code>: Search term.</li>
             <li><code>total_res</code> (optional): Maximum number of results to return. Default is 9 for anime, 20 for manga.</li>
             <li><code>page</code> (optional, for manga): Page number for results. Default is 1.</li>
@@ -45,7 +45,7 @@ const ApiDocs: React.FC = () => {
           <p><strong>Query Parameters:</strong></p>
           <ul>
             <li><code>anime_session</code> or <code>anime_id</code>: Anime session or ID.</li>
-            <li><code>page</code> (optional): Page number. Default is "1".</li>
+            <li><code>page</code> (optional): Page number. Default is &quot;1&quot;.</li>
           </ul>
           <p><strong>Response:</strong> JSON object containing episode details.</p>
 
@@ -110,7 +110,7 @@ DELETE /library</code></pre>
           <p><strong>Description:</strong> Retrieves or deletes library items.</p>
           <p><strong>Query Parameters:</strong></p>
           <ul>
-            <li><code>status</code> (optional, for GET): Filter by status. Default is "downloaded".</li>
+            <li><code>status</code> (optional, for GET): Filter by status. Default is &quot;downloaded&quot;.</li>
             <li><code>id</code> (for DELETE): ID of the item to delete.</li>
           </ul>
           <p><strong>Response:</strong></p>
@@ -124,8 +124,8 @@ DELETE /library</code></pre>
           <p><strong>Description:</strong> Retrieves top anime or manga.</p>
           <p><strong>Query Parameters:</strong></p>
           <ul>
-            <li><code>type</code>: "anime" or "manga".</li>
-            <li><code>c</code>: Category (e.g., "airing", "upcoming", "tv", "movie", etc. for anime; "manga", "novels", "oneshots", etc. for manga).</li>
+            <li><code>type</code>: &quot;anime&quot; or &quot;manga&quot;.</li>
+            <li><code>c</code>: Category (e.g., &quot;airing&quot;, &quot;upcoming&quot;, &quot;tv&quot;, &quot;movie&quot;, etc. for anime; &quot;manga&quot;, &quot;novels&quot;, &quot;oneshots&quot;, etc. for manga).</li>
             <li><code>limit</code> (optional): Number of results to return.</li>
           </ul>
           <p><strong>Response:</strong> JSON object with top anime/manga data.</p>
@@ -162,7 +162,7 @@ DELETE /library</code></pre>
           <p><strong>Description:</strong> Retrieves recommendations for anime or manga.</p>
           <p><strong>Query Parameters:</strong></p>
           <ul>
-            <li><code>type</code>: "anime" or "manga".</li>
+            <li><code>type</code>: &quot;anime&quot; or &quot;manga&quot;.</li>
             <li><code>anime_session</code> or <code>manga_session</code>: Session ID of the anime or manga.</li>
           </ul>
           <p><strong>Response:</strong> JSON object with recommendations.</p>

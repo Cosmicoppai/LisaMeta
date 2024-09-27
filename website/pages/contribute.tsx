@@ -35,7 +35,11 @@ const Contributing: React.FC = () => {
             <h2>📖 Development Setup</h2>
             <h3>Prerequisites / Dependencies</h3>
             <ul>
-              <li>Make sure <a href="https://www.python.org/downloads/release/python-31014">Python 3.10.x</a> || <a href="https://www.python.org/downloads/release/python-3119">Python 3.11.x</a> && <a href="https://nodejs.org/en/download/package-manager">Node.js >=18</a> are installed.</li>
+              <li>
+                Make sure <a href="https://www.python.org/downloads/release/python-31014">Python 3.10.x</a> ||
+                <a href="https://www.python.org/downloads/release/python-3119"> Python 3.11.x</a> &&
+                <a href="https://nodejs.org/en/download/package-manager"> Node.js &gt;= 18</a> are installed.
+              </li>
               <li>Run all commands in the project root.</li>
               <li>Powershell is recommended for windows.</li>
             </ul>
