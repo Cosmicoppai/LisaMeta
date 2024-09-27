@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(210, 195, 195, 0.67);
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+
+.container, .header, .footer {
+  background-color: rgba(210, 195, 195, 0.67);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.button {
+  background-color: #4285f4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #3367d6;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}

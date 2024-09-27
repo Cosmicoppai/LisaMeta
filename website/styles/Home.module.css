@@ -1,0 +1,133 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  color: var(--foreground-color);
+  background: var(--background-color);
+}
+
+.logoContainer {
+  margin-bottom: 2rem;
+}
+
+.circle {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+}
+
+.circle svg {
+  fill: none;
+  stroke: #8a3ab9;
+  stroke-linecap: round;
+  stroke-width: 2;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: stroke-draw 4s ease-out infinite alternate;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50%;
+}
+
+@keyframes stroke-draw {
+  from {
+    stroke: #de0f3f;
+    stroke-dasharray: 1;
+  }
+  to {
+    stroke: #aa1945;
+    transform: rotate(180deg);
+    stroke-dasharray: 8;
+  }
+}
+
+.loaderCircle {
+  enable-background: new -580 439 577.9 194;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.latestRelease, .features, .contribute {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 3rem;
+}
+
+.latestRelease h2, .features h2, .contribute h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.releaseNotes {
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.releaseNotes ul {
+  padding-left: 20px;
+}
+
+.releaseNotes li {
+  margin-bottom: 10px;
+}
+
+.releaseNotes pre {
+  background-color: var(--background-tertiary);
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.releaseNotes img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0051bb;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.features li {
+  margin-bottom: 0.5rem;
+}

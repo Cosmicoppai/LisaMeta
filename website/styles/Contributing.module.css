@@ -1,0 +1,94 @@
+.contributing {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+.tableOfContents {
+  width: 200px;
+  padding-right: 20px;
+}
+
+.tableOfContents h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tableOfContents ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tableOfContents li {
+  margin-bottom: 5px;
+}
+
+.tableOfContents a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.content {
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content section {
+  margin-bottom: 30px;
+}
+
+.content pre {
+  background-color: #C3D2D2;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+
+.content code {
+  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 14px;
+}
+
+.content p {
+  margin-bottom: 10px;
+}
+
+.content ul, .content ol {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.content li {
+  margin-bottom: 5px;
+}
+
+.content a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
